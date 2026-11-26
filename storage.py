@@ -6,6 +6,7 @@ import hashlib
 from pathlib import Path
 
 from models import Cell
+from methods import compare_methods
 
 
 STATE_DIR = Path("state")
@@ -13,7 +14,14 @@ STATE_DIR = Path("state")
 
 def persist(cells: list[Cell], metadata: dict) -> None:
     STATE_DIR.mkdir(exist_ok=True)
-    payload = {"metadata": metadata, "cells": [cell.to_dict() for cell in cells]}
+    model_records = []
+    history = STATE_DIR / "forward_ledger.jsonl"
+    if history.exists():
+        for line in history.read_text().splitlines():
+            if line.strip():
+                model_records.append(json.loads(line))
+    payload = {"metadata": metadata, "cells": [cell.to_dict() for cell in cells],
+               "methods": compare_methods(model_records)}
     target = STATE_DIR / "latest.json"
     temporary = STATE_DIR / "latest.tmp"
     temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
