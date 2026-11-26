@@ -8,7 +8,7 @@ dependencies = ["requests>=2.31", "pandas>=2.1", "streamlit>=1.40"]
 test = ["pytest>=8.0"]
 
 [tool.setuptools]
-py-modules = ["app", "config", "corroboration", "data_quality", "engine", "forward", "methods", "models", "orchestrator", "portfolio", "promotion", "run", "sources", "storage", "validation"]
+py-modules = ["app", "config", "corroboration", "data_quality", "engine", "forward", "health", "methods", "models", "orchestrator", "portfolio", "promotion", "run", "sources", "storage", "validation"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
