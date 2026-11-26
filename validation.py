@@ -34,3 +34,18 @@ def validation_gate(metrics, observations: int, coverage: float):
     if metrics.get("max_drawdown", -1) < -.20: failures.append("maksimum düşüş sınırı aşıldı")
     if metrics.get("regime_count", 0) < 3: failures.append("en az üç piyasa rejimi görülmedi")
     return ("VALIDATED", []) if not failures else ("PENDING", failures)
+
+
+def deflated_sharpe_proxy(sharpes: list[float], observations: int) -> float | None:
+    if not sharpes or observations < 2:
+        return None
+    best = max(sharpes)
+    expected_max = math.sqrt(2 * math.log(max(1, len(sharpes))))
+    return (best - expected_max) * math.sqrt(observations / max(1, observations - 1))
+
+
+def pbo_proxy(train_scores: list[float], test_scores: list[float]) -> float | None:
+    if len(train_scores) != len(test_scores) or len(train_scores) < 2:
+        return None
+    winner = max(range(len(train_scores)), key=train_scores.__getitem__)
+    return 1.0 if test_scores[winner] <= 0 else 0.0
