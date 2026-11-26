@@ -1,0 +1,2721 @@
+{
+  "metadata": {
+    "cell_count": 72,
+    "expected_cell_count": 72,
+    "radar_observed": 51,
+    "tier1_observed": 12,
+    "observable_cells": 52,
+    "proven_cells": 0,
+    "source_as_of": "2026-11-26T09:50:36.963255+00:00"
+  },
+  "cells": [
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 7,
+          "asset_polls": 37,
+          "coverage": 0.1891891891891892
+        },
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 1985.662762,
+      "flow_percentile": 28.8,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Zayıf giriş",
+          "magnitude_percentile": 28.8,
+          "reference_count": 52,
+          "flow_aum_pct": 0.257362409527614,
+          "aum_asof": "2026-11-23",
+          "net_usd_m": 1985.662762,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 7,
+          "asset_polls": 37,
+          "coverage": 0.1891891891891892
+        },
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": -94.568,
+      "flow_percentile": 0.0,
+      "flow_pressure_pct": -0.3597,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -94.568,
+          "strength": "Yatay",
+          "magnitude_percentile": 0.0,
+          "reference_count": 52,
+          "directional_pressure_pct": -0.3597,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 60.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-17",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": -0.0120642648929241,
+          "aum_asof": "2026-11-17"
+        },
+        "tier1": {},
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 5304.362,
+      "flow_percentile": 44.4,
+      "flow_pressure_pct": 6.3391,
+      "reference_count": 18,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 5304.362,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 44.4,
+          "reference_count": 18,
+          "directional_pressure_pct": 6.3391,
+          "directional_sessions": 22,
+          "positive_sessions_pct": 54.5455,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 0.6565280925833528,
+          "aum_asof": "2026-10-23"
+        },
+        "tier1": {},
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 8631.938,
+      "flow_percentile": 20.0,
+      "flow_pressure_pct": 4.004,
+      "reference_count": 5,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 8631.938,
+          "strength": "Zayıf giriş",
+          "magnitude_percentile": 20.0,
+          "reference_count": 5,
+          "directional_pressure_pct": 4.004,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 47.6923,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 1.0674239950797124,
+          "aum_asof": "2026-08-24"
+        },
+        "tier1": {},
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "SPY",
+      "label": "S&P 500",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 28136.509,
+      "flow_percentile": null,
+      "flow_pressure_pct": 3.5555,
+      "reference_count": 0,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 28136.509,
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 0,
+          "directional_pressure_pct": 3.5555,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 50.996,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 4.066325884614812,
+          "aum_asof": "2025-11-24"
+        },
+        "tier1": {},
+        "tier1_key": "SPX"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 7,
+          "asset_polls": 37,
+          "coverage": 0.1891891891891892
+        },
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 2050.291073,
+      "flow_percentile": 57.1,
+      "flow_pressure_pct": null,
+      "reference_count": 14,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 57.1,
+          "reference_count": 14,
+          "flow_aum_pct": 0.4550379196355882,
+          "aum_asof": "2026-11-23",
+          "net_usd_m": 2050.291073,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 7,
+          "asset_polls": 37,
+          "coverage": 0.1891891891891892
+        },
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": -991.035,
+      "flow_percentile": null,
+      "flow_pressure_pct": -15.6869,
+      "reference_count": 1,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -991.035,
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 1,
+          "directional_pressure_pct": -15.6869,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 40.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-17",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": -0.2164383405157169,
+          "aum_asof": "2026-11-17"
+        },
+        "tier1": {},
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": null,
+          "strength": "Veri eksik",
+          "magnitude_percentile": null,
+          "reference_count": 0,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {},
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": null,
+          "strength": "Veri eksik",
+          "magnitude_percentile": null,
+          "reference_count": 0,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {},
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "QQQ",
+      "label": "Nasdaq-100",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": null,
+          "strength": "Veri eksik",
+          "magnitude_percentile": null,
+          "reference_count": 0,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {},
+        "tier1_key": "NQ"
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 0.0,
+      "flow_percentile": 2.9,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Yatay",
+          "magnitude_percentile": 2.9,
+          "reference_count": 52,
+          "flow_aum_pct": 0.0,
+          "aum_asof": "2026-11-23",
+          "net_usd_m": 0.0,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 840.908,
+      "flow_percentile": 65.4,
+      "flow_pressure_pct": 68.5547,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 840.908,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 65.4,
+          "reference_count": 52,
+          "directional_pressure_pct": 68.5547,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 40.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-17",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 1.912330628791252,
+          "aum_asof": "2026-11-17"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 284.859,
+      "flow_percentile": 5.6,
+      "flow_pressure_pct": 4.272,
+      "reference_count": 18,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 284.859,
+          "strength": "Yatay",
+          "magnitude_percentile": 5.6,
+          "reference_count": 18,
+          "directional_pressure_pct": 4.272,
+          "directional_sessions": 22,
+          "positive_sessions_pct": 40.9091,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 0.6219309707908,
+          "aum_asof": "2026-10-23"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 1242.624,
+      "flow_percentile": 60.0,
+      "flow_pressure_pct": 6.2023,
+      "reference_count": 5,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 1242.624,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 60.0,
+          "reference_count": 5,
+          "directional_pressure_pct": 6.2023,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 44.6154,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 2.70639091016153,
+          "aum_asof": "2026-08-24"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "DIA",
+      "label": "Dow Jones",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 981.262,
+      "flow_percentile": null,
+      "flow_pressure_pct": 1.038,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 981.262,
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 0,
+          "directional_pressure_pct": 1.038,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 42.6295,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-24",
+          "pressure_end": "2026-11-24",
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında",
+          "flow_aum_pct": 2.4467855690350246,
+          "aum_asof": "2025-11-24"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -578.4018773500001,
+      "flow_percentile": 55.8,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 55.8,
+          "reference_count": 52,
+          "flow_aum_pct": -0.7692236404007772,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": -578.4018773500001,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 426.462,
+      "flow_percentile": 26.9,
+      "flow_pressure_pct": 12.2713,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 426.462,
+          "strength": "Zayıf giriş",
+          "magnitude_percentile": 26.9,
+          "reference_count": 52,
+          "directional_pressure_pct": 12.2713,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 40.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 0.5689064725090879,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 2775.82,
+      "flow_percentile": 78.8,
+      "flow_pressure_pct": 26.7634,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 2775.82,
+          "strength": "Güçlü giriş",
+          "magnitude_percentile": 78.8,
+          "reference_count": 52,
+          "directional_pressure_pct": 26.7634,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 60.8696,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 3.7403632384580727,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 2575.661,
+      "flow_percentile": 65.4,
+      "flow_pressure_pct": 6.3962,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 2575.661,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 65.4,
+          "reference_count": 52,
+          "directional_pressure_pct": 6.3962,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 53.8462,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 3.184880725567835,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IWM",
+      "label": "Russell 2000",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -2259.703,
+      "flow_percentile": 62.5,
+      "flow_pressure_pct": -1.5103,
+      "reference_count": 24,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -2259.703,
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 62.5,
+          "reference_count": 24,
+          "directional_pressure_pct": -1.5103,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 47.012,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -3.198428729473233,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 543.6479538,
+      "flow_percentile": 90.4,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Olağanüstü giriş",
+          "magnitude_percentile": 90.4,
+          "reference_count": 52,
+          "flow_aum_pct": 0.4526284887703044,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": 543.6479538,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 2395.051,
+      "flow_percentile": 96.2,
+      "flow_pressure_pct": 84.3945,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 2395.051,
+          "strength": "Olağanüstü giriş",
+          "magnitude_percentile": 96.2,
+          "reference_count": 52,
+          "directional_pressure_pct": 84.3945,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 80.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 2.0265702634102043,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 3878.161,
+      "flow_percentile": 80.8,
+      "flow_pressure_pct": 45.3,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 3878.161,
+          "strength": "Güçlü giriş",
+          "magnitude_percentile": 80.8,
+          "reference_count": 52,
+          "directional_pressure_pct": 45.3,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 73.913,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 3.320944814391067,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 15362.013,
+      "flow_percentile": 95.8,
+      "flow_pressure_pct": 67.3554,
+      "reference_count": 24,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 15362.013,
+          "strength": "Olağanüstü giriş",
+          "magnitude_percentile": 95.8,
+          "reference_count": 24,
+          "directional_pressure_pct": 67.3554,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 83.0769,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 14.594402330148345,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SGOV",
+      "label": "ABD 0–3 ay bono",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 56496.237,
+      "flow_percentile": 100.0,
+      "flow_pressure_pct": 66.5966,
+      "reference_count": 5,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 56496.237,
+          "strength": "Olağanüstü giriş",
+          "magnitude_percentile": 100.0,
+          "reference_count": 5,
+          "directional_pressure_pct": 66.5966,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 84.4622,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 88.19947459542917,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 106.0876388,
+      "flow_percentile": 80.8,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Güçlü giriş",
+          "magnitude_percentile": 80.8,
+          "reference_count": 52,
+          "flow_aum_pct": 0.3972624534203174,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": 106.0876388,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 57.125,
+      "flow_percentile": 11.5,
+      "flow_pressure_pct": 25.9327,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 57.125,
+          "strength": "Yatay",
+          "magnitude_percentile": 11.5,
+          "reference_count": 52,
+          "directional_pressure_pct": 25.9327,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 40.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 0.21410269143086538,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -427.931,
+      "flow_percentile": 48.1,
+      "flow_pressure_pct": -15.8997,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -427.931,
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 48.1,
+          "reference_count": 52,
+          "directional_pressure_pct": -15.8997,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 65.2174,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -1.5720951815897821,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 1379.475,
+      "flow_percentile": 61.5,
+      "flow_pressure_pct": 23.0055,
+      "reference_count": 52,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 1379.475,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 61.5,
+          "reference_count": 52,
+          "directional_pressure_pct": 23.0055,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 61.5385,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 5.388585377731498,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "SHY",
+      "label": "ABD 1–3 yıl tahvil",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 3606.47,
+      "flow_percentile": 87.0,
+      "flow_pressure_pct": 19.8729,
+      "reference_count": 23,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 3606.47,
+          "strength": "Güçlü giriş",
+          "magnitude_percentile": 87.0,
+          "reference_count": 23,
+          "directional_pressure_pct": 19.8729,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 44.6215,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 15.237424366836297,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 23,
+          "asset_polls": 37,
+          "coverage": 0.6216216216216216
+        },
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+      "flow_usd_m": 63.5156364259491,
+      "flow_percentile": 13.5,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Yatay",
+          "magnitude_percentile": 13.5,
+          "reference_count": 52,
+          "flow_aum_pct": 0.05308603512554676,
+          "aum_asof": "2026-11-24",
+          "net_usd_m": 63.5156364259491,
+          "action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 23,
+          "asset_polls": 37,
+          "coverage": 0.6216216216216216
+        },
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+      "flow_usd_m": -1909.838,
+      "flow_percentile": 90.4,
+      "flow_pressure_pct": -93.7634,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1909.838,
+          "strength": "Olağanüstü çıkış",
+          "magnitude_percentile": 90.4,
+          "reference_count": 52,
+          "directional_pressure_pct": -93.7634,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 20.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+          "flow_aum_pct": -1.513657552453662,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "issuer published total net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+      "flow_usd_m": -1524.124,
+      "flow_percentile": 61.5,
+      "flow_pressure_pct": -26.6617,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1524.124,
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 61.5,
+          "reference_count": 52,
+          "directional_pressure_pct": -26.6617,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 47.8261,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+          "flow_aum_pct": -1.1342686378461715,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "issuer published total net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+      "flow_usd_m": -2275.983,
+      "flow_percentile": 51.9,
+      "flow_pressure_pct": -11.8736,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -2275.983,
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 51.9,
+          "reference_count": 52,
+          "directional_pressure_pct": -11.8736,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 46.1538,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+          "flow_aum_pct": -1.4634065001570769,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "issuer published total net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "GLD",
+      "label": "Altın",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+      "flow_usd_m": -872.903,
+      "flow_percentile": 5.6,
+      "flow_pressure_pct": -1.0339,
+      "reference_count": 18,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -872.903,
+          "strength": "Yatay",
+          "magnitude_percentile": 5.6,
+          "reference_count": 18,
+          "directional_pressure_pct": -1.0339,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 47.4104,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî NAV/varlık kaynaklı akış tahmini",
+          "flow_aum_pct": -0.6322971966161711,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "issuer published total net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAU"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 23,
+          "asset_polls": 37,
+          "coverage": 0.6216216216216216
+        },
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -26.662203,
+      "flow_percentile": 42.3,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 42.3,
+          "reference_count": 52,
+          "flow_aum_pct": -0.12469834051702691,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": -26.662203,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 23,
+          "asset_polls": 37,
+          "coverage": 0.6216216216216216
+        },
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 127.568,
+      "flow_percentile": 34.6,
+      "flow_pressure_pct": 40.9942,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 127.568,
+          "strength": "Zayıf giriş",
+          "magnitude_percentile": 34.6,
+          "reference_count": 52,
+          "directional_pressure_pct": 40.9942,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 60.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 0.5581133765231402,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 240.269,
+      "flow_percentile": 48.1,
+      "flow_pressure_pct": 21.7331,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 240.269,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 48.1,
+          "reference_count": 52,
+          "directional_pressure_pct": 21.7331,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 30.4348,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 0.8948358374383992,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": 524.797,
+      "flow_percentile": 70.6,
+      "flow_pressure_pct": 17.4843,
+      "reference_count": 51,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": 524.797,
+          "strength": "Olağan giriş",
+          "magnitude_percentile": 70.6,
+          "reference_count": 51,
+          "directional_pressure_pct": 17.4843,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 30.7692,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": 1.5661204813661733,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "SLV",
+      "label": "Gümüş",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -1079.765,
+      "flow_percentile": 66.7,
+      "flow_pressure_pct": -3.5823,
+      "reference_count": 12,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1079.765,
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 66.7,
+          "reference_count": 12,
+          "directional_pressure_pct": -3.5823,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 31.0757,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -4.210511183186174,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "XAG"
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "CPER",
+      "label": "Bakır",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · alternatif kaynak araştırma aşamasında",
+      "flow_usd_m": 68.225,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 1,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 1,
+          "net_usd_m": 68.225,
+          "action": "BEKLE · alternatif kaynak araştırma aşamasında"
+        },
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "USO",
+      "label": "WTI petrol",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "EŞLEŞME YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {},
+        "tier1_key": null
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 37,
+          "asset_polls": 37,
+          "coverage": 1.0
+        },
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -176.38734359999998,
+      "flow_percentile": 63.5,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Olağan çıkış",
+          "magnitude_percentile": 63.5,
+          "reference_count": 52,
+          "flow_aum_pct": -0.39347632170283015,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": -176.38734359999998,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 37,
+          "asset_polls": 37,
+          "coverage": 1.0
+        },
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -1899.462,
+      "flow_percentile": 100.0,
+      "flow_pressure_pct": -100.0,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1899.462,
+          "strength": "Olağanüstü çıkış",
+          "magnitude_percentile": 100.0,
+          "reference_count": 52,
+          "directional_pressure_pct": -100.0,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 0.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -3.8870693626079937,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -4042.396,
+      "flow_percentile": 78.8,
+      "flow_pressure_pct": -80.6025,
+      "reference_count": 33,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -4042.396,
+          "strength": "Güçlü çıkış",
+          "magnitude_percentile": 78.8,
+          "reference_count": 33,
+          "directional_pressure_pct": -80.6025,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 21.7391,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -6.136185012686531,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -451.868,
+      "flow_percentile": 0.0,
+      "flow_pressure_pct": -4.0126,
+      "reference_count": 10,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -451.868,
+          "strength": "Yatay",
+          "magnitude_percentile": 0.0,
+          "reference_count": 10,
+          "directional_pressure_pct": -4.0126,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 50.7692,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -0.745032010671796,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "IBIT",
+      "label": "Bitcoin ETF",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -222.911,
+      "flow_percentile": null,
+      "flow_pressure_pct": -0.5861,
+      "reference_count": 1,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -222.911,
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 1,
+          "directional_pressure_pct": -0.5861,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 49.004,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -0.32976597744610364,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "BTC"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "4S",
+      "horizon_label": "4 saat",
+      "radar_status": "YOK",
+      "radar_action": "BEKLE · veri yok",
+      "flow_usd_m": null,
+      "flow_percentile": null,
+      "flow_pressure_pct": null,
+      "reference_count": 0,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 4,
+      "tier1_hit": 1.0,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {},
+        "tier1": {
+          "always_long_hit": 0.0,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 86.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "10": {
+              "hypothetical_mean_bps": 76.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "20": {
+              "hypothetical_mean_bps": 66.13,
+              "hypothetical_positive_fraction": 1.0
+            },
+            "40": {
+              "hypothetical_mean_bps": 46.13,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 4,
+          "missing_labels": 85,
+          "model_hit": 1.0,
+          "model_wilson_95": [
+            0.5101,
+            1.0
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.75,
+          "paired_discordance": {
+            "baseline_only": 0,
+            "model_only": 4
+          },
+          "paired_one_sided_p_unadjusted": 0.0625,
+          "pending_labels": 11,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 37,
+          "asset_polls": 37,
+          "coverage": 1.0
+        },
+        "tier1_key": "ETH"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "1G",
+      "horizon_label": "1 gün",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -38.061368,
+      "flow_percentile": 32.7,
+      "flow_pressure_pct": null,
+      "reference_count": 52,
+      "tier1_status": "INSUFFICIENT",
+      "tier1_n": 12,
+      "tier1_hit": 0.8333,
+      "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "strength": "Zayıf çıkış",
+          "magnitude_percentile": 32.7,
+          "reference_count": 52,
+          "flow_aum_pct": -0.8746657930267173,
+          "aum_asof": "2026-11-24",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets",
+          "net_usd_m": -38.061368,
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini"
+        },
+        "tier1": {
+          "always_long_hit": 0.1667,
+          "hypothetical_cost_scenarios_bps": {
+            "0": {
+              "hypothetical_mean_bps": 97.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "10": {
+              "hypothetical_mean_bps": 87.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "20": {
+              "hypothetical_mean_bps": 77.22,
+              "hypothetical_positive_fraction": 0.8333
+            },
+            "40": {
+              "hypothetical_mean_bps": 57.22,
+              "hypothetical_positive_fraction": 0.75
+            }
+          },
+          "independent_assets_assumption_verified": false,
+          "independent_by_asset_n": 12,
+          "missing_labels": 69,
+          "model_hit": 0.8333,
+          "model_wilson_95": [
+            0.552,
+            0.953
+          ],
+          "multiple_testing_adjusted_p_bonferroni_12": 0.231445,
+          "paired_discordance": {
+            "baseline_only": 2,
+            "model_only": 10
+          },
+          "paired_one_sided_p_unadjusted": 0.019287,
+          "pending_labels": 8,
+          "verdict": "INSUFFICIENT",
+          "asset_valid": 37,
+          "asset_polls": 37,
+          "coverage": 1.0
+        },
+        "tier1_key": "ETH"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "1H",
+      "horizon_label": "1 hafta",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -321.82,
+      "flow_percentile": 90.4,
+      "flow_pressure_pct": -100.0,
+      "reference_count": 52,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -321.82,
+          "strength": "Olağanüstü çıkış",
+          "magnitude_percentile": 90.4,
+          "reference_count": 52,
+          "directional_pressure_pct": -100.0,
+          "directional_sessions": 5,
+          "positive_sessions_pct": 0.0,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-11-18",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -6.624167324849643,
+          "aum_asof": "2026-11-18",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "ETH"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "1A",
+      "horizon_label": "1 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -1389.484,
+      "flow_percentile": 89.3,
+      "flow_pressure_pct": -95.7961,
+      "reference_count": 28,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1389.484,
+          "strength": "Güçlü çıkış",
+          "magnitude_percentile": 89.3,
+          "reference_count": 28,
+          "directional_pressure_pct": -95.7961,
+          "directional_sessions": 23,
+          "positive_sessions_pct": 4.3478,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-10-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -17.77837295056999,
+          "aum_asof": "2026-10-23",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "ETH"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "3A",
+      "horizon_label": "3 ay",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -1390.777,
+      "flow_percentile": 75.0,
+      "flow_pressure_pct": -33.3893,
+      "reference_count": 8,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -1390.777,
+          "strength": "Güçlü çıkış",
+          "magnitude_percentile": 75.0,
+          "reference_count": 8,
+          "directional_pressure_pct": -33.3893,
+          "directional_sessions": 65,
+          "positive_sessions_pct": 27.6923,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2026-08-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -17.204049752092043,
+          "aum_asof": "2026-08-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "ETH"
+      }
+    },
+    {
+      "asset": "ETHA",
+      "label": "Ether ETF",
+      "horizon": "1Y",
+      "horizon_label": "1 yıl",
+      "radar_status": "VAR",
+      "radar_action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+      "flow_usd_m": -2063.703,
+      "flow_percentile": null,
+      "flow_pressure_pct": -17.2576,
+      "reference_count": 1,
+      "tier1_status": "VADE YOK",
+      "tier1_n": 0,
+      "tier1_hit": null,
+      "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
+      "as_of": "2026-11-26T09:50:36.963255+00:00",
+      "evidence": {
+        "radar": {
+          "net_usd_m": -2063.703,
+          "strength": "Geçmiş yetersiz",
+          "magnitude_percentile": null,
+          "reference_count": 1,
+          "directional_pressure_pct": -17.2576,
+          "directional_sessions": 251,
+          "positive_sessions_pct": 39.4422,
+          "pressure_basis": "DAILY_NET_OVER_ABSOLUTE_DAILY_NET",
+          "pressure_start": "2025-11-25",
+          "pressure_end": "2026-11-25",
+          "action": "BEKLE · resmî pay/NAV kaynaklı akış tahmini",
+          "flow_aum_pct": -19.469463329413465,
+          "aum_asof": "2025-11-25",
+          "aum_basis": "official shares outstanding times NAV; estimated net assets"
+        },
+        "tier1": {},
+        "tier1_key": "ETH"
+      }
+    }
+  ]
+}
