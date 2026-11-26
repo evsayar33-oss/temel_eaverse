@@ -7,7 +7,8 @@ the forward ledger contains enough independent, costed observations.
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
-from typing import Any, Callable
+from typing import Any
+from validation import validation_gate, validation_metrics
 
 
 MIN_OBSERVATIONS = 30
@@ -65,18 +66,23 @@ def compare_methods(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
         rows = [r for r in records if r.get("method_id") == spec.method_id]
         valid = [r for r in rows if isinstance(r.get("net_excess_return"), (int, float))]
         coverage = min((float(r.get("coverage", 0)) for r in rows), default=0.0)
-        if len(valid) < MIN_OBSERVATIONS or coverage < MIN_COVERAGE:
+        metrics = validation_metrics(valid, len(METHODS))
+        gate, failures = validation_gate(metrics, len(valid), coverage)
+        mean_bps = metrics.get("mean_excess_bps")
+        if not valid or len(valid) < MIN_OBSERVATIONS:
             status = "PENDING · ileri örnek yetersiz"
-            mean_bps = None
+        elif mean_bps <= 0:
+            status = "ELENEN · maliyet sonrası avantaj yok"
+        elif gate == "VALIDATED":
+            status = "VALIDATED · tüm doğrulama kapıları geçti"
         else:
-            mean_bps = 10_000 * sum(float(r["net_excess_return"]) for r in valid) / len(valid)
-            status = "ELENEN · maliyet sonrası avantaj yok" if mean_bps <= 0 else "ADAY · ileri doğrulama bekleniyor"
+            status = "PENDING · " + "; ".join(failures)
         results.append({
             **asdict(spec), "observations": len(valid), "coverage": coverage,
             "mean_excess_bps": round(mean_bps, 4) if mean_bps is not None else None,
-            "status": status, "selected": False,
+            "status": status, "selected": False, "validation": metrics,
         })
-    eligible = [r for r in results if r["status"].startswith("ADAY")]
+    eligible = [r for r in results if r["status"].startswith("VALIDATED")]
     if eligible:
         best = max(eligible, key=lambda r: r["mean_excess_bps"])
         best["selected"] = True
