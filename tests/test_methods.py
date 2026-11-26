@@ -14,9 +14,10 @@ def test_comparison_fails_closed_until_sample_is_sufficient():
     assert not item["selected"]
 
 
-def test_comparison_selects_only_positive_sufficient_candidate():
+def test_positive_sample_still_needs_all_validation_gates():
     records = [{"method_id": "flow_percentile", "net_excess_return": 0.01, "coverage": 1.0} for _ in range(30)]
     result = compare_methods(records)
     item = next(x for x in result if x["method_id"] == "flow_percentile")
-    assert item["selected"]
+    assert not item["selected"]
+    assert item["status"].startswith("PENDING")
     assert item["mean_excess_bps"] == 100.0
