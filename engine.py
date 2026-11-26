@@ -5,6 +5,7 @@ from typing import Any
 
 from config import ASSETS, HORIZONS
 from models import Cell
+from methods import method_snapshot
 
 
 def _selected(radar: dict[str, Any], symbol: str) -> dict[str, Any] | None:
@@ -81,7 +82,12 @@ def build_matrix(radar: dict[str, Any], tier: dict[str, Any]) -> list[Cell]:
                 tier1_hit=th.get("model_hit"),
                 combined_status=_combined(rh, th, horizon),
                 as_of=as_of,
-                evidence={"radar": rh, "tier1": th, "tier1_key": asset.tier1_key},
+                evidence={"radar": rh, "tier1": th, "tier1_key": asset.tier1_key,
+                          "methods": method_snapshot(type("Signal", (), {
+                              "flow_percentile": rh.get("magnitude_percentile"),
+                              "flow_pressure_pct": rh.get("directional_pressure_pct"),
+                              "tier1_hit": th.get("model_hit"), "tier1_n": int(th.get("independent_by_asset_n") or 0),
+                          })())},
             ))
     return cells
 
