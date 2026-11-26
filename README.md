@@ -25,7 +25,7 @@ streamlit run app.py
 
 ## Karar sınırı
 
-Bu sürüm PAPER araştırmasıdır. Bir hücrenin görünmesi, giriş izni veya kanıtlanmış kârlılık anlamına gelmez. Kaynakların yayımlanmış veri sürümü, örnek büyüklüğü ve uygulanabilir fiyat kapsamı yeterli olmadan otomatik terfi yapılmaz.
+Bu sürüm PAPER araştırmasıdır. Bir hücrenin görünmesi, giriş izni veya kanıtlanmış kârlılık anlamına gelmez. Altı yöntem adayı her hücrede gölge olarak hesaplanır. İleri günlükte en az 30 geçerli ve en az %80 kapsamalı maliyet sonrası sonuç olmadan hiçbir yöntem seçilmez. Model karşılaştırması yalnızca aynı karar zamanı, aynı çıkış zamanı, aynı maliyet varsayımı ve aynı gözlem kimliğiyle yazılmış sonuçları kullanır.
 
 Birleşimin gerçek ek katkısı, aynı karar anı ve çıkışta birleşik hesap eksi Radar hesabının maliyet sonrası getirisiyle ölçülecektir. Olgunlaşmış ileri sonuç birikmeden sistem kazanan yöntem ilan etmez.
 
