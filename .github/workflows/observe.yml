@@ -24,6 +24,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add state/latest.json state/observations.jsonl
+          git add -f state/forward_ledger.jsonl 2>/dev/null || true
           git diff --cached --quiet || git commit -m "data: birleşik gözlemi güncelle"
           git push
 
