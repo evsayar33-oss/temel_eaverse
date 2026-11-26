@@ -25,6 +25,7 @@ def main() -> None:
     latest["controls"] = build_research_controls(radar, tier, cells, latest.get("methods", []))
     import json
     Path("state/latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2) + "\n")
+    Path("state/superlab_package.json").write_text(json.dumps(latest["controls"]["superlab_package"], ensure_ascii=False, indent=2) + "\n")
     print(metadata)
 
 
