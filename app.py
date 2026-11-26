@@ -44,6 +44,10 @@ matrix = df.pivot(index="asset", columns="horizon", values="combined_status")
 matrix = matrix.reindex(columns=list(HORIZONS))
 st.dataframe(matrix, use_container_width=True)
 
+st.subheader("Yöntem keşfi ve model karşılaştırması")
+st.caption("İleri örnek oluşmadan yöntem seçilmez. Tüm adaylar aynı anda gölge olarak izlenir.")
+st.dataframe(pd.DataFrame(payload.get("methods", [])), use_container_width=True, hide_index=True)
+
 with st.expander("Kaynak ve kanıt ayrıntıları"):
     asset = st.selectbox("Varlık", sorted(df.asset.unique()))
     row = df[(df.asset == asset) & (df.horizon == selected_horizon)].iloc[0]
