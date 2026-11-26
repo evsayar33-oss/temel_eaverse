@@ -2,7 +2,7 @@
 name = "temel-eaverse"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["requests>=2.31", "pandas>=2.1", "streamlit>=1.40"]
+dependencies = ["requests>=2.31", "pandas>=2.1", "streamlit>=1.67.0"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
