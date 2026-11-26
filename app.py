@@ -47,6 +47,9 @@ st.dataframe(matrix, use_container_width=True)
 st.subheader("Yöntem keşfi ve model karşılaştırması")
 st.caption("İleri örnek oluşmadan yöntem seçilmez. Tüm adaylar aynı anda gölge olarak izlenir.")
 st.dataframe(pd.DataFrame(payload.get("methods", [])), use_container_width=True, hide_index=True)
+st.subheader("Otomatik araştırma kontrolleri")
+controls = payload.get("controls", {})
+st.json({"data_quality": controls.get("data_quality"), "promotion": controls.get("promotion")})
 
 with st.expander("Kaynak ve kanıt ayrıntıları"):
     asset = st.selectbox("Varlık", sorted(df.asset.unique()))
