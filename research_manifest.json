@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "all_asset_horizon_method_discovery",
+  "assets": ["SPY", "QQQ", "DIA", "IWM", "SGOV", "SHY", "GLD", "SLV", "CPER", "USO", "IBIT", "ETHA"],
+  "horizons": ["4S", "1G", "1H", "1A", "3A", "1Y"],
+  "methods": ["flow_percentile", "directional_pressure", "flow_percentile_pressure", "robust_z", "tier1_gate", "flow_then_tier1"],
+  "cost_scenarios_bps": [5, 10, 20, 40],
+  "minimum_independent_observations": 30,
+  "minimum_coverage": 0.8,
+  "validation": ["bootstrap_ci95", "bonferroni", "regime_coverage", "max_drawdown", "pbo_proxy", "dsr_proxy"],
+  "promotion": "manual_review_after_locked_forward_validation",
+  "lookahead_policy": "decision_uses_only_data_seen_at_decision_time",
+  "missing_data_policy": "pending_without_imputation",
+  "short_or_leveraged_trading": false
+}
