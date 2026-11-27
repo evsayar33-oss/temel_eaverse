@@ -6,7 +6,7 @@
     "tier1_observed": 12,
     "observable_cells": 52,
     "proven_cells": 0,
-    "source_as_of": "2026-11-26T15:36:07.177665+00:00",
+    "source_as_of": "2026-11-27T08:41:09.036251+00:00",
     "forward_results_added": 0
   },
   "cells": [
@@ -25,7 +25,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -50,7 +50,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -62,11 +62,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 39,
-          "coverage": 0.1794871794871795
+          "asset_polls": 40,
+          "coverage": 0.175
         },
         "tier1_key": "SPX",
         "methods": [
@@ -160,7 +160,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Zayıf giriş",
@@ -193,7 +193,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -205,11 +205,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 39,
-          "coverage": 0.1794871794871795
+          "asset_polls": 40,
+          "coverage": 0.175
         },
         "tier1_key": "SPX",
         "methods": [
@@ -303,7 +303,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -94.568,
@@ -413,7 +413,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 5304.362,
@@ -523,7 +523,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 8631.938,
@@ -633,7 +633,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 28136.509,
@@ -743,7 +743,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -768,7 +768,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -780,11 +780,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 39,
-          "coverage": 0.1794871794871795
+          "asset_polls": 40,
+          "coverage": 0.175
         },
         "tier1_key": "NQ",
         "methods": [
@@ -878,7 +878,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Olağan giriş",
@@ -911,7 +911,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -923,11 +923,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 39,
-          "coverage": 0.1794871794871795
+          "asset_polls": 40,
+          "coverage": 0.175
         },
         "tier1_key": "NQ",
         "methods": [
@@ -1021,7 +1021,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -991.035,
@@ -1131,7 +1131,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": null,
@@ -1233,7 +1233,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": null,
@@ -1335,7 +1335,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": null,
@@ -1437,7 +1437,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -1533,7 +1533,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Yatay",
@@ -1637,7 +1637,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 840.908,
@@ -1747,7 +1747,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 284.859,
@@ -1857,7 +1857,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 1242.624,
@@ -1967,7 +1967,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 981.262,
@@ -2077,7 +2077,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -2173,7 +2173,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Olağan çıkış",
@@ -2278,7 +2278,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 426.462,
@@ -2389,7 +2389,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 2775.82,
@@ -2500,7 +2500,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 2575.661,
@@ -2611,7 +2611,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -2259.703,
@@ -2722,7 +2722,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -2818,7 +2818,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Olağanüstü giriş",
@@ -2923,7 +2923,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 2395.051,
@@ -3034,7 +3034,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 3878.161,
@@ -3145,7 +3145,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 15362.013,
@@ -3256,7 +3256,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 56496.237,
@@ -3367,7 +3367,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -3463,7 +3463,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Güçlü giriş",
@@ -3568,7 +3568,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 57.125,
@@ -3679,7 +3679,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -427.931,
@@ -3790,7 +3790,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 1379.475,
@@ -3901,7 +3901,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 3606.47,
@@ -4012,7 +4012,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -4037,7 +4037,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4049,11 +4049,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 39,
-          "coverage": 0.5897435897435898
+          "asset_polls": 40,
+          "coverage": 0.575
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4147,7 +4147,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Yatay",
@@ -4180,7 +4180,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4192,11 +4192,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 39,
-          "coverage": 0.5897435897435898
+          "asset_polls": 40,
+          "coverage": 0.575
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4290,7 +4290,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1909.838,
@@ -4401,7 +4401,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1524.124,
@@ -4512,7 +4512,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -2275.983,
@@ -4623,7 +4623,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -872.903,
@@ -4734,7 +4734,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -4759,7 +4759,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4771,11 +4771,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 39,
-          "coverage": 0.5897435897435898
+          "asset_polls": 40,
+          "coverage": 0.575
         },
         "tier1_key": "XAG",
         "methods": [
@@ -4869,7 +4869,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Olağan çıkış",
@@ -4903,7 +4903,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4915,11 +4915,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 39,
-          "coverage": 0.5897435897435898
+          "asset_polls": 40,
+          "coverage": 0.575
         },
         "tier1_key": "XAG",
         "methods": [
@@ -5013,7 +5013,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 127.568,
@@ -5124,7 +5124,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 240.269,
@@ -5235,7 +5235,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": 524.797,
@@ -5346,7 +5346,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1079.765,
@@ -5457,7 +5457,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -5553,7 +5553,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -5649,7 +5649,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -5745,7 +5745,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -5841,7 +5841,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -5937,7 +5937,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6033,7 +6033,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6129,7 +6129,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · Tier-1 eşleşmesi yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Geçmiş yetersiz",
@@ -6231,7 +6231,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6327,7 +6327,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6423,7 +6423,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6519,7 +6519,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "ÖLÇÜLEMEDİ · temel akış yok",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {},
@@ -6615,7 +6615,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -6640,7 +6640,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -6652,10 +6652,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 39,
-          "asset_polls": 39,
+          "asset_valid": 40,
+          "asset_polls": 40,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -6750,7 +6750,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Olağan çıkış",
@@ -6784,7 +6784,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -6796,10 +6796,10 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 39,
-          "asset_polls": 39,
+          "asset_valid": 40,
+          "asset_polls": 40,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -6894,7 +6894,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1899.462,
@@ -7005,7 +7005,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -4042.396,
@@ -7116,7 +7116,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -451.868,
@@ -7227,7 +7227,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -222.911,
@@ -7338,7 +7338,7 @@
       "tier1_n": 4,
       "tier1_hit": 1.0,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {},
         "tier1": {
@@ -7363,7 +7363,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 86,
+          "missing_labels": 87,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -7375,10 +7375,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 11,
+          "pending_labels": 10,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 39,
-          "asset_polls": 39,
+          "asset_valid": 40,
+          "asset_polls": 40,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -7473,7 +7473,7 @@
       "tier1_n": 12,
       "tier1_hit": 0.8333,
       "combined_status": "KANIT YETERSİZ · kısa vade gözlemi sürüyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "strength": "Zayıf çıkış",
@@ -7507,7 +7507,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 72,
+          "missing_labels": 74,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -7519,10 +7519,10 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 8,
+          "pending_labels": 11,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 39,
-          "asset_polls": 39,
+          "asset_valid": 40,
+          "asset_polls": 40,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -7617,7 +7617,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -321.82,
@@ -7728,7 +7728,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1389.484,
@@ -7839,7 +7839,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "TEMEL GÖZLEM VAR · sonuç vadesi bekleniyor",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -1390.777,
@@ -7950,7 +7950,7 @@
       "tier1_n": 0,
       "tier1_hit": null,
       "combined_status": "KANIT YETERSİZ · tarihsel dönem az",
-      "as_of": "2026-11-26T15:36:07.177665+00:00",
+      "as_of": "2026-11-27T08:41:09.036251+00:00",
       "evidence": {
         "radar": {
           "net_usd_m": -2063.703,
@@ -8150,7 +8150,7 @@
       "status": "PASS",
       "issues": [],
       "tier1_unavailable_assets": [],
-      "checked_at": "2026-11-26T21:40:55.863814+00:00"
+      "checked_at": "2026-11-27T08:45:20.009570+00:00"
     },
     "corroboration": {
       "status": "PARTIAL",
@@ -8159,7 +8159,7 @@
       ],
       "secondary_observations": 11,
       "same_date_comparisons": 0,
-      "checked_at": "2026-11-26T21:40:55.863830+00:00",
+      "checked_at": "2026-11-27T08:45:20.009587+00:00",
       "sources": {
         "radar_primary": {
           "role": "primary_flow",
@@ -8566,7 +8566,7 @@
         {
           "asset": "SPY",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -8591,7 +8591,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -8603,11 +8603,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 39,
-              "coverage": 0.1794871794871795
+              "asset_polls": 40,
+              "coverage": 0.175
             },
             "tier1_key": "SPX",
             "methods": [
@@ -8689,7 +8689,7 @@
         {
           "asset": "SPY",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Zayıf giriş",
@@ -8722,7 +8722,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -8734,11 +8734,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 39,
-              "coverage": 0.1794871794871795
+              "asset_polls": 40,
+              "coverage": 0.175
             },
             "tier1_key": "SPX",
             "methods": [
@@ -8820,7 +8820,7 @@
         {
           "asset": "SPY",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -94.568,
@@ -8918,7 +8918,7 @@
         {
           "asset": "SPY",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 5304.362,
@@ -9016,7 +9016,7 @@
         {
           "asset": "SPY",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 8631.938,
@@ -9114,7 +9114,7 @@
         {
           "asset": "SPY",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 28136.509,
@@ -9212,7 +9212,7 @@
         {
           "asset": "QQQ",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -9237,7 +9237,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -9249,11 +9249,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 39,
-              "coverage": 0.1794871794871795
+              "asset_polls": 40,
+              "coverage": 0.175
             },
             "tier1_key": "NQ",
             "methods": [
@@ -9335,7 +9335,7 @@
         {
           "asset": "QQQ",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Olağan giriş",
@@ -9368,7 +9368,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -9380,11 +9380,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 39,
-              "coverage": 0.1794871794871795
+              "asset_polls": 40,
+              "coverage": 0.175
             },
             "tier1_key": "NQ",
             "methods": [
@@ -9466,7 +9466,7 @@
         {
           "asset": "QQQ",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -991.035,
@@ -9564,7 +9564,7 @@
         {
           "asset": "QQQ",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": null,
@@ -9654,7 +9654,7 @@
         {
           "asset": "QQQ",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": null,
@@ -9744,7 +9744,7 @@
         {
           "asset": "QQQ",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": null,
@@ -9834,7 +9834,7 @@
         {
           "asset": "DIA",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -9918,7 +9918,7 @@
         {
           "asset": "DIA",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Yatay",
@@ -10010,7 +10010,7 @@
         {
           "asset": "DIA",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 840.908,
@@ -10108,7 +10108,7 @@
         {
           "asset": "DIA",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 284.859,
@@ -10206,7 +10206,7 @@
         {
           "asset": "DIA",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 1242.624,
@@ -10304,7 +10304,7 @@
         {
           "asset": "DIA",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 981.262,
@@ -10402,7 +10402,7 @@
         {
           "asset": "IWM",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -10486,7 +10486,7 @@
         {
           "asset": "IWM",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Olağan çıkış",
@@ -10579,7 +10579,7 @@
         {
           "asset": "IWM",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 426.462,
@@ -10678,7 +10678,7 @@
         {
           "asset": "IWM",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 2775.82,
@@ -10777,7 +10777,7 @@
         {
           "asset": "IWM",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 2575.661,
@@ -10876,7 +10876,7 @@
         {
           "asset": "IWM",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -2259.703,
@@ -10975,7 +10975,7 @@
         {
           "asset": "SGOV",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -11059,7 +11059,7 @@
         {
           "asset": "SGOV",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Olağanüstü giriş",
@@ -11152,7 +11152,7 @@
         {
           "asset": "SGOV",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 2395.051,
@@ -11251,7 +11251,7 @@
         {
           "asset": "SGOV",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 3878.161,
@@ -11350,7 +11350,7 @@
         {
           "asset": "SGOV",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 15362.013,
@@ -11449,7 +11449,7 @@
         {
           "asset": "SGOV",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 56496.237,
@@ -11548,7 +11548,7 @@
         {
           "asset": "SHY",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -11632,7 +11632,7 @@
         {
           "asset": "SHY",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Güçlü giriş",
@@ -11725,7 +11725,7 @@
         {
           "asset": "SHY",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 57.125,
@@ -11824,7 +11824,7 @@
         {
           "asset": "SHY",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -427.931,
@@ -11923,7 +11923,7 @@
         {
           "asset": "SHY",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 1379.475,
@@ -12022,7 +12022,7 @@
         {
           "asset": "SHY",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 3606.47,
@@ -12121,7 +12121,7 @@
         {
           "asset": "GLD",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -12146,7 +12146,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12158,11 +12158,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 39,
-              "coverage": 0.5897435897435898
+              "asset_polls": 40,
+              "coverage": 0.575
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12244,7 +12244,7 @@
         {
           "asset": "GLD",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Yatay",
@@ -12277,7 +12277,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -12289,11 +12289,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 39,
-              "coverage": 0.5897435897435898
+              "asset_polls": 40,
+              "coverage": 0.575
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12375,7 +12375,7 @@
         {
           "asset": "GLD",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1909.838,
@@ -12474,7 +12474,7 @@
         {
           "asset": "GLD",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1524.124,
@@ -12573,7 +12573,7 @@
         {
           "asset": "GLD",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -2275.983,
@@ -12672,7 +12672,7 @@
         {
           "asset": "GLD",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -872.903,
@@ -12771,7 +12771,7 @@
         {
           "asset": "SLV",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -12796,7 +12796,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12808,11 +12808,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 39,
-              "coverage": 0.5897435897435898
+              "asset_polls": 40,
+              "coverage": 0.575
             },
             "tier1_key": "XAG",
             "methods": [
@@ -12894,7 +12894,7 @@
         {
           "asset": "SLV",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Olağan çıkış",
@@ -12928,7 +12928,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -12940,11 +12940,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 39,
-              "coverage": 0.5897435897435898
+              "asset_polls": 40,
+              "coverage": 0.575
             },
             "tier1_key": "XAG",
             "methods": [
@@ -13026,7 +13026,7 @@
         {
           "asset": "SLV",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 127.568,
@@ -13125,7 +13125,7 @@
         {
           "asset": "SLV",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 240.269,
@@ -13224,7 +13224,7 @@
         {
           "asset": "SLV",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": 524.797,
@@ -13323,7 +13323,7 @@
         {
           "asset": "SLV",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1079.765,
@@ -13422,7 +13422,7 @@
         {
           "asset": "CPER",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13506,7 +13506,7 @@
         {
           "asset": "CPER",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13590,7 +13590,7 @@
         {
           "asset": "CPER",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13674,7 +13674,7 @@
         {
           "asset": "CPER",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13758,7 +13758,7 @@
         {
           "asset": "CPER",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13842,7 +13842,7 @@
         {
           "asset": "CPER",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -13926,7 +13926,7 @@
         {
           "asset": "USO",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -14010,7 +14010,7 @@
         {
           "asset": "USO",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Geçmiş yetersiz",
@@ -14100,7 +14100,7 @@
         {
           "asset": "USO",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -14184,7 +14184,7 @@
         {
           "asset": "USO",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -14268,7 +14268,7 @@
         {
           "asset": "USO",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -14352,7 +14352,7 @@
         {
           "asset": "USO",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {},
@@ -14436,7 +14436,7 @@
         {
           "asset": "IBIT",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -14461,7 +14461,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -14473,10 +14473,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 39,
-              "asset_polls": 39,
+              "asset_valid": 40,
+              "asset_polls": 40,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -14559,7 +14559,7 @@
         {
           "asset": "IBIT",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Olağan çıkış",
@@ -14593,7 +14593,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -14605,10 +14605,10 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 39,
-              "asset_polls": 39,
+              "asset_valid": 40,
+              "asset_polls": 40,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -14691,7 +14691,7 @@
         {
           "asset": "IBIT",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1899.462,
@@ -14790,7 +14790,7 @@
         {
           "asset": "IBIT",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -4042.396,
@@ -14889,7 +14889,7 @@
         {
           "asset": "IBIT",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -451.868,
@@ -14988,7 +14988,7 @@
         {
           "asset": "IBIT",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -222.911,
@@ -15087,7 +15087,7 @@
         {
           "asset": "ETHA",
           "horizon": "4S",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {},
             "tier1": {
@@ -15112,7 +15112,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 86,
+              "missing_labels": 87,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -15124,10 +15124,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 11,
+              "pending_labels": 10,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 39,
-              "asset_polls": 39,
+              "asset_valid": 40,
+              "asset_polls": 40,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
@@ -15210,7 +15210,7 @@
         {
           "asset": "ETHA",
           "horizon": "1G",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "strength": "Zayıf çıkış",
@@ -15244,7 +15244,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 72,
+              "missing_labels": 74,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -15256,10 +15256,10 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 8,
+              "pending_labels": 11,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 39,
-              "asset_polls": 39,
+              "asset_valid": 40,
+              "asset_polls": 40,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
@@ -15342,7 +15342,7 @@
         {
           "asset": "ETHA",
           "horizon": "1H",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -321.82,
@@ -15441,7 +15441,7 @@
         {
           "asset": "ETHA",
           "horizon": "1A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1389.484,
@@ -15540,7 +15540,7 @@
         {
           "asset": "ETHA",
           "horizon": "3A",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -1390.777,
@@ -15639,7 +15639,7 @@
         {
           "asset": "ETHA",
           "horizon": "1Y",
-          "as_of": "2026-11-26T15:36:07.177665+00:00",
+          "as_of": "2026-11-27T08:41:09.036251+00:00",
           "evidence": {
             "radar": {
               "net_usd_m": -2063.703,
