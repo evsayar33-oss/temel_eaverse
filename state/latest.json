@@ -7,7 +7,7 @@
     "observable_cells": 52,
     "proven_cells": 0,
     "source_as_of": "2026-11-27T08:41:09.036251+00:00",
-    "forward_results_added": 0
+    "forward_results_added": 300
   },
   "cells": [
     {
@@ -50,7 +50,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -62,11 +62,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 40,
-          "coverage": 0.175
+          "asset_polls": 42,
+          "coverage": 0.16666666666666666
         },
         "tier1_key": "SPX",
         "methods": [
@@ -193,7 +193,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -208,8 +208,8 @@
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 40,
-          "coverage": 0.175
+          "asset_polls": 42,
+          "coverage": 0.16666666666666666
         },
         "tier1_key": "SPX",
         "methods": [
@@ -768,7 +768,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -780,11 +780,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 40,
-          "coverage": 0.175
+          "asset_polls": 42,
+          "coverage": 0.16666666666666666
         },
         "tier1_key": "NQ",
         "methods": [
@@ -911,7 +911,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -926,8 +926,8 @@
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 40,
-          "coverage": 0.175
+          "asset_polls": 42,
+          "coverage": 0.16666666666666666
         },
         "tier1_key": "NQ",
         "methods": [
@@ -4037,7 +4037,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4049,11 +4049,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 40,
-          "coverage": 0.575
+          "asset_polls": 42,
+          "coverage": 0.5476190476190477
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4180,7 +4180,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4195,8 +4195,8 @@
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 40,
-          "coverage": 0.575
+          "asset_polls": 42,
+          "coverage": 0.5476190476190477
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4759,7 +4759,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4771,11 +4771,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 40,
-          "coverage": 0.575
+          "asset_polls": 42,
+          "coverage": 0.5476190476190477
         },
         "tier1_key": "XAG",
         "methods": [
@@ -4903,7 +4903,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4918,8 +4918,8 @@
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 40,
-          "coverage": 0.575
+          "asset_polls": 42,
+          "coverage": 0.5476190476190477
         },
         "tier1_key": "XAG",
         "methods": [
@@ -6640,7 +6640,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -6652,10 +6652,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 40,
-          "asset_polls": 40,
+          "asset_valid": 42,
+          "asset_polls": 42,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -6784,7 +6784,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -6798,8 +6798,8 @@
           "paired_one_sided_p_unadjusted": 0.019287,
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 40,
-          "asset_polls": 40,
+          "asset_valid": 42,
+          "asset_polls": 42,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -7363,7 +7363,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 87,
+          "missing_labels": 91,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -7375,10 +7375,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 6,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 40,
-          "asset_polls": 40,
+          "asset_valid": 42,
+          "asset_polls": 42,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -7507,7 +7507,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 74,
+          "missing_labels": 75,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -7521,8 +7521,8 @@
           "paired_one_sided_p_unadjusted": 0.019287,
           "pending_labels": 11,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 40,
-          "asset_polls": 40,
+          "asset_valid": 42,
+          "asset_polls": 42,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -8053,15 +8053,24 @@
       "name": "Akış yüzdeliği",
       "family": "flow",
       "description": "Mutlak akışı geçmiş eş uzunluklu dönemlerle karşılaştırır.",
-      "observations": 0,
-      "coverage": 0.0,
-      "mean_excess_bps": null,
-      "status": "PENDING · ileri örnek yetersiz",
+      "observations": 60,
+      "coverage": 1.0,
+      "mean_excess_bps": -0.712,
+      "status": "ELENEN · maliyet sonrası avantaj yok",
       "selected": false,
       "validation": {
-        "status": "PENDING",
-        "reason": "maliyet sonrası ileri sonuç yok",
-        "observations": 0
+        "status": "MEASURED",
+        "observations": 60,
+        "mean_excess_bps": -0.7119900097190169,
+        "ci95_low": -0.0001423980019438034,
+        "ci95_high": -1.6666666666666667e-05,
+        "win_rate": 0.0,
+        "sharpe_proxy": -2.0568447267313914,
+        "max_drawdown": -0.004265129052687389,
+        "sign_test_p_bonferroni": 1,
+        "regime_count": 0,
+        "pbo_proxy": null,
+        "dsr_proxy": null
       }
     },
     {
@@ -8069,15 +8078,24 @@
       "name": "Yön baskısı",
       "family": "flow",
       "description": "Net akışı mutlak akış toplamına oranlar.",
-      "observations": 0,
-      "coverage": 0.0,
-      "mean_excess_bps": null,
-      "status": "PENDING · ileri örnek yetersiz",
+      "observations": 60,
+      "coverage": 1.0,
+      "mean_excess_bps": 0.0,
+      "status": "ELENEN · maliyet sonrası avantaj yok",
       "selected": false,
       "validation": {
-        "status": "PENDING",
-        "reason": "maliyet sonrası ileri sonuç yok",
-        "observations": 0
+        "status": "MEASURED",
+        "observations": 60,
+        "mean_excess_bps": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "win_rate": 0.0,
+        "sharpe_proxy": null,
+        "max_drawdown": 0.0,
+        "sign_test_p_bonferroni": 1,
+        "regime_count": 0,
+        "pbo_proxy": null,
+        "dsr_proxy": null
       }
     },
     {
@@ -8085,15 +8103,24 @@
       "name": "Akış + yön baskısı",
       "family": "flow",
       "description": "Yüzdeliği yön baskısıyla birleştirir.",
-      "observations": 0,
-      "coverage": 0.0,
-      "mean_excess_bps": null,
-      "status": "PENDING · ileri örnek yetersiz",
+      "observations": 60,
+      "coverage": 1.0,
+      "mean_excess_bps": 0.0,
+      "status": "ELENEN · maliyet sonrası avantaj yok",
       "selected": false,
       "validation": {
-        "status": "PENDING",
-        "reason": "maliyet sonrası ileri sonuç yok",
-        "observations": 0
+        "status": "MEASURED",
+        "observations": 60,
+        "mean_excess_bps": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "win_rate": 0.0,
+        "sharpe_proxy": null,
+        "max_drawdown": 0.0,
+        "sign_test_p_bonferroni": 1,
+        "regime_count": 0,
+        "pbo_proxy": null,
+        "dsr_proxy": null
       }
     },
     {
@@ -8117,15 +8144,24 @@
       "name": "Tier-1 teyit kapısı",
       "family": "timing",
       "description": "Kısa vadeli bağımsız denetim yeterli değilse bekler.",
-      "observations": 0,
-      "coverage": 0.0,
-      "mean_excess_bps": null,
-      "status": "PENDING · ileri örnek yetersiz",
+      "observations": 60,
+      "coverage": 1.0,
+      "mean_excess_bps": 0.0,
+      "status": "ELENEN · maliyet sonrası avantaj yok",
       "selected": false,
       "validation": {
-        "status": "PENDING",
-        "reason": "maliyet sonrası ileri sonuç yok",
-        "observations": 0
+        "status": "MEASURED",
+        "observations": 60,
+        "mean_excess_bps": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "win_rate": 0.0,
+        "sharpe_proxy": null,
+        "max_drawdown": 0.0,
+        "sign_test_p_bonferroni": 1,
+        "regime_count": 0,
+        "pbo_proxy": null,
+        "dsr_proxy": null
       }
     },
     {
@@ -8133,15 +8169,24 @@
       "name": "Akış + Tier-1",
       "family": "combined",
       "description": "Temel akış yönünü zamanlama teyidiyle birleştirir.",
-      "observations": 0,
-      "coverage": 0.0,
-      "mean_excess_bps": null,
-      "status": "PENDING · ileri örnek yetersiz",
+      "observations": 60,
+      "coverage": 1.0,
+      "mean_excess_bps": 0.0,
+      "status": "ELENEN · maliyet sonrası avantaj yok",
       "selected": false,
       "validation": {
-        "status": "PENDING",
-        "reason": "maliyet sonrası ileri sonuç yok",
-        "observations": 0
+        "status": "MEASURED",
+        "observations": 60,
+        "mean_excess_bps": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "win_rate": 0.0,
+        "sharpe_proxy": null,
+        "max_drawdown": 0.0,
+        "sign_test_p_bonferroni": 1,
+        "regime_count": 0,
+        "pbo_proxy": null,
+        "dsr_proxy": null
       }
     }
   ],
@@ -8150,7 +8195,7 @@
       "status": "PASS",
       "issues": [],
       "tier1_unavailable_assets": [],
-      "checked_at": "2026-11-27T08:45:20.009570+00:00"
+      "checked_at": "2026-11-27T21:26:15.997520+00:00"
     },
     "corroboration": {
       "status": "PARTIAL",
@@ -8159,7 +8204,7 @@
       ],
       "secondary_observations": 11,
       "same_date_comparisons": 0,
-      "checked_at": "2026-11-27T08:45:20.009587+00:00",
+      "checked_at": "2026-11-27T21:26:15.997533+00:00",
       "sources": {
         "radar_primary": {
           "role": "primary_flow",
@@ -8470,15 +8515,24 @@
           "name": "Akış yüzdeliği",
           "family": "flow",
           "description": "Mutlak akışı geçmiş eş uzunluklu dönemlerle karşılaştırır.",
-          "observations": 0,
-          "coverage": 0.0,
-          "mean_excess_bps": null,
-          "status": "PENDING · ileri örnek yetersiz",
+          "observations": 60,
+          "coverage": 1.0,
+          "mean_excess_bps": -0.712,
+          "status": "ELENEN · maliyet sonrası avantaj yok",
           "selected": false,
           "validation": {
-            "status": "PENDING",
-            "reason": "maliyet sonrası ileri sonuç yok",
-            "observations": 0
+            "status": "MEASURED",
+            "observations": 60,
+            "mean_excess_bps": -0.7119900097190169,
+            "ci95_low": -0.0001423980019438034,
+            "ci95_high": -1.6666666666666667e-05,
+            "win_rate": 0.0,
+            "sharpe_proxy": -2.0568447267313914,
+            "max_drawdown": -0.004265129052687389,
+            "sign_test_p_bonferroni": 1,
+            "regime_count": 0,
+            "pbo_proxy": null,
+            "dsr_proxy": null
           }
         },
         {
@@ -8486,15 +8540,24 @@
           "name": "Yön baskısı",
           "family": "flow",
           "description": "Net akışı mutlak akış toplamına oranlar.",
-          "observations": 0,
-          "coverage": 0.0,
-          "mean_excess_bps": null,
-          "status": "PENDING · ileri örnek yetersiz",
+          "observations": 60,
+          "coverage": 1.0,
+          "mean_excess_bps": 0.0,
+          "status": "ELENEN · maliyet sonrası avantaj yok",
           "selected": false,
           "validation": {
-            "status": "PENDING",
-            "reason": "maliyet sonrası ileri sonuç yok",
-            "observations": 0
+            "status": "MEASURED",
+            "observations": 60,
+            "mean_excess_bps": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "win_rate": 0.0,
+            "sharpe_proxy": null,
+            "max_drawdown": 0.0,
+            "sign_test_p_bonferroni": 1,
+            "regime_count": 0,
+            "pbo_proxy": null,
+            "dsr_proxy": null
           }
         },
         {
@@ -8502,15 +8565,24 @@
           "name": "Akış + yön baskısı",
           "family": "flow",
           "description": "Yüzdeliği yön baskısıyla birleştirir.",
-          "observations": 0,
-          "coverage": 0.0,
-          "mean_excess_bps": null,
-          "status": "PENDING · ileri örnek yetersiz",
+          "observations": 60,
+          "coverage": 1.0,
+          "mean_excess_bps": 0.0,
+          "status": "ELENEN · maliyet sonrası avantaj yok",
           "selected": false,
           "validation": {
-            "status": "PENDING",
-            "reason": "maliyet sonrası ileri sonuç yok",
-            "observations": 0
+            "status": "MEASURED",
+            "observations": 60,
+            "mean_excess_bps": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "win_rate": 0.0,
+            "sharpe_proxy": null,
+            "max_drawdown": 0.0,
+            "sign_test_p_bonferroni": 1,
+            "regime_count": 0,
+            "pbo_proxy": null,
+            "dsr_proxy": null
           }
         },
         {
@@ -8534,15 +8606,24 @@
           "name": "Tier-1 teyit kapısı",
           "family": "timing",
           "description": "Kısa vadeli bağımsız denetim yeterli değilse bekler.",
-          "observations": 0,
-          "coverage": 0.0,
-          "mean_excess_bps": null,
-          "status": "PENDING · ileri örnek yetersiz",
+          "observations": 60,
+          "coverage": 1.0,
+          "mean_excess_bps": 0.0,
+          "status": "ELENEN · maliyet sonrası avantaj yok",
           "selected": false,
           "validation": {
-            "status": "PENDING",
-            "reason": "maliyet sonrası ileri sonuç yok",
-            "observations": 0
+            "status": "MEASURED",
+            "observations": 60,
+            "mean_excess_bps": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "win_rate": 0.0,
+            "sharpe_proxy": null,
+            "max_drawdown": 0.0,
+            "sign_test_p_bonferroni": 1,
+            "regime_count": 0,
+            "pbo_proxy": null,
+            "dsr_proxy": null
           }
         },
         {
@@ -8550,15 +8631,24 @@
           "name": "Akış + Tier-1",
           "family": "combined",
           "description": "Temel akış yönünü zamanlama teyidiyle birleştirir.",
-          "observations": 0,
-          "coverage": 0.0,
-          "mean_excess_bps": null,
-          "status": "PENDING · ileri örnek yetersiz",
+          "observations": 60,
+          "coverage": 1.0,
+          "mean_excess_bps": 0.0,
+          "status": "ELENEN · maliyet sonrası avantaj yok",
           "selected": false,
           "validation": {
-            "status": "PENDING",
-            "reason": "maliyet sonrası ileri sonuç yok",
-            "observations": 0
+            "status": "MEASURED",
+            "observations": 60,
+            "mean_excess_bps": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "win_rate": 0.0,
+            "sharpe_proxy": null,
+            "max_drawdown": 0.0,
+            "sign_test_p_bonferroni": 1,
+            "regime_count": 0,
+            "pbo_proxy": null,
+            "dsr_proxy": null
           }
         }
       ],
@@ -8591,7 +8681,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -8603,11 +8693,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 40,
-              "coverage": 0.175
+              "asset_polls": 42,
+              "coverage": 0.16666666666666666
             },
             "tier1_key": "SPX",
             "methods": [
@@ -8722,7 +8812,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -8737,8 +8827,8 @@
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 40,
-              "coverage": 0.175
+              "asset_polls": 42,
+              "coverage": 0.16666666666666666
             },
             "tier1_key": "SPX",
             "methods": [
@@ -9237,7 +9327,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -9249,11 +9339,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 40,
-              "coverage": 0.175
+              "asset_polls": 42,
+              "coverage": 0.16666666666666666
             },
             "tier1_key": "NQ",
             "methods": [
@@ -9368,7 +9458,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -9383,8 +9473,8 @@
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 40,
-              "coverage": 0.175
+              "asset_polls": 42,
+              "coverage": 0.16666666666666666
             },
             "tier1_key": "NQ",
             "methods": [
@@ -12146,7 +12236,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12158,11 +12248,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 40,
-              "coverage": 0.575
+              "asset_polls": 42,
+              "coverage": 0.5476190476190477
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12277,7 +12367,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -12292,8 +12382,8 @@
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 40,
-              "coverage": 0.575
+              "asset_polls": 42,
+              "coverage": 0.5476190476190477
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12796,7 +12886,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12808,11 +12898,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 40,
-              "coverage": 0.575
+              "asset_polls": 42,
+              "coverage": 0.5476190476190477
             },
             "tier1_key": "XAG",
             "methods": [
@@ -12928,7 +13018,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -12943,8 +13033,8 @@
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 40,
-              "coverage": 0.575
+              "asset_polls": 42,
+              "coverage": 0.5476190476190477
             },
             "tier1_key": "XAG",
             "methods": [
@@ -14461,7 +14551,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -14473,10 +14563,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 40,
-              "asset_polls": 40,
+              "asset_valid": 42,
+              "asset_polls": 42,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -14593,7 +14683,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -14607,8 +14697,8 @@
               "paired_one_sided_p_unadjusted": 0.019287,
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 40,
-              "asset_polls": 40,
+              "asset_valid": 42,
+              "asset_polls": 42,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -15112,7 +15202,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 87,
+              "missing_labels": 91,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -15124,10 +15214,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 6,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 40,
-              "asset_polls": 40,
+              "asset_valid": 42,
+              "asset_polls": 42,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
@@ -15244,7 +15334,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 74,
+              "missing_labels": 75,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -15258,8 +15348,8 @@
               "paired_one_sided_p_unadjusted": 0.019287,
               "pending_labels": 11,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 40,
-              "asset_polls": 40,
+              "asset_valid": 42,
+              "asset_polls": 42,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
