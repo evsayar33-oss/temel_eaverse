@@ -7,7 +7,7 @@
     "observable_cells": 56,
     "proven_cells": 0,
     "source_as_of": "2026-11-28T07:55:07.909321+00:00",
-    "forward_results_added": 60
+    "forward_results_added": 0
   },
   "cells": [
     {
@@ -50,7 +50,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -62,11 +62,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 43,
-          "coverage": 0.16279069767441862
+          "asset_polls": 44,
+          "coverage": 0.1590909090909091
         },
         "tier1_key": "SPX",
         "methods": [
@@ -193,7 +193,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -205,11 +205,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 43,
-          "coverage": 0.16279069767441862
+          "asset_polls": 44,
+          "coverage": 0.1590909090909091
         },
         "tier1_key": "SPX",
         "methods": [
@@ -768,7 +768,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -780,11 +780,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 43,
-          "coverage": 0.16279069767441862
+          "asset_polls": 44,
+          "coverage": 0.1590909090909091
         },
         "tier1_key": "NQ",
         "methods": [
@@ -911,7 +911,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -923,11 +923,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
           "asset_valid": 7,
-          "asset_polls": 43,
-          "coverage": 0.16279069767441862
+          "asset_polls": 44,
+          "coverage": 0.1590909090909091
         },
         "tier1_key": "NQ",
         "methods": [
@@ -4037,7 +4037,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4049,11 +4049,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 43,
-          "coverage": 0.5348837209302325
+          "asset_polls": 44,
+          "coverage": 0.5227272727272727
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4180,7 +4180,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4192,11 +4192,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 43,
-          "coverage": 0.5348837209302325
+          "asset_polls": 44,
+          "coverage": 0.5227272727272727
         },
         "tier1_key": "XAU",
         "methods": [
@@ -4759,7 +4759,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -4771,11 +4771,11 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 43,
-          "coverage": 0.5348837209302325
+          "asset_polls": 44,
+          "coverage": 0.5227272727272727
         },
         "tier1_key": "XAG",
         "methods": [
@@ -4903,7 +4903,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -4915,11 +4915,11 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
           "asset_valid": 23,
-          "asset_polls": 43,
-          "coverage": 0.5348837209302325
+          "asset_polls": 44,
+          "coverage": 0.5227272727272727
         },
         "tier1_key": "XAG",
         "methods": [
@@ -6674,7 +6674,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -6686,10 +6686,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 43,
-          "asset_polls": 43,
+          "asset_valid": 44,
+          "asset_polls": 44,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -6818,7 +6818,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -6830,10 +6830,10 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 43,
-          "asset_polls": 43,
+          "asset_valid": 44,
+          "asset_polls": 44,
           "coverage": 1.0
         },
         "tier1_key": "BTC",
@@ -7397,7 +7397,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 4,
-          "missing_labels": 91,
+          "missing_labels": 96,
           "model_hit": 1.0,
           "model_wilson_95": [
             0.5101,
@@ -7409,10 +7409,10 @@
             "model_only": 4
           },
           "paired_one_sided_p_unadjusted": 0.0625,
-          "pending_labels": 10,
+          "pending_labels": 5,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 43,
-          "asset_polls": 43,
+          "asset_valid": 44,
+          "asset_polls": 44,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -7541,7 +7541,7 @@
           },
           "independent_assets_assumption_verified": false,
           "independent_by_asset_n": 12,
-          "missing_labels": 76,
+          "missing_labels": 77,
           "model_hit": 0.8333,
           "model_wilson_95": [
             0.552,
@@ -7553,10 +7553,10 @@
             "model_only": 10
           },
           "paired_one_sided_p_unadjusted": 0.019287,
-          "pending_labels": 10,
+          "pending_labels": 9,
           "verdict": "INSUFFICIENT",
-          "asset_valid": 43,
-          "asset_polls": 43,
+          "asset_valid": 44,
+          "asset_polls": 44,
           "coverage": 1.0
         },
         "tier1_key": "ETH",
@@ -8229,7 +8229,7 @@
       "status": "PASS",
       "issues": [],
       "tier1_unavailable_assets": [],
-      "checked_at": "2026-11-28T07:58:40.231220+00:00"
+      "checked_at": "2026-11-28T16:57:15.598079+00:00"
     },
     "corroboration": {
       "status": "PARTIAL",
@@ -8238,7 +8238,7 @@
       ],
       "secondary_observations": 11,
       "same_date_comparisons": 0,
-      "checked_at": "2026-11-28T07:58:40.231236+00:00",
+      "checked_at": "2026-11-28T16:57:15.598105+00:00",
       "sources": {
         "radar_primary": {
           "role": "primary_flow",
@@ -8739,7 +8739,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -8751,11 +8751,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 43,
-              "coverage": 0.16279069767441862
+              "asset_polls": 44,
+              "coverage": 0.1590909090909091
             },
             "tier1_key": "SPX",
             "methods": [
@@ -8870,7 +8870,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -8882,11 +8882,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 43,
-              "coverage": 0.16279069767441862
+              "asset_polls": 44,
+              "coverage": 0.1590909090909091
             },
             "tier1_key": "SPX",
             "methods": [
@@ -9385,7 +9385,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -9397,11 +9397,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 43,
-              "coverage": 0.16279069767441862
+              "asset_polls": 44,
+              "coverage": 0.1590909090909091
             },
             "tier1_key": "NQ",
             "methods": [
@@ -9516,7 +9516,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -9528,11 +9528,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
               "asset_valid": 7,
-              "asset_polls": 43,
-              "coverage": 0.16279069767441862
+              "asset_polls": 44,
+              "coverage": 0.1590909090909091
             },
             "tier1_key": "NQ",
             "methods": [
@@ -12294,7 +12294,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12306,11 +12306,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 43,
-              "coverage": 0.5348837209302325
+              "asset_polls": 44,
+              "coverage": 0.5227272727272727
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12425,7 +12425,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -12437,11 +12437,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 43,
-              "coverage": 0.5348837209302325
+              "asset_polls": 44,
+              "coverage": 0.5227272727272727
             },
             "tier1_key": "XAU",
             "methods": [
@@ -12944,7 +12944,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -12956,11 +12956,11 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 43,
-              "coverage": 0.5348837209302325
+              "asset_polls": 44,
+              "coverage": 0.5227272727272727
             },
             "tier1_key": "XAG",
             "methods": [
@@ -13076,7 +13076,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -13088,11 +13088,11 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
               "asset_valid": 23,
-              "asset_polls": 43,
-              "coverage": 0.5348837209302325
+              "asset_polls": 44,
+              "coverage": 0.5227272727272727
             },
             "tier1_key": "XAG",
             "methods": [
@@ -14643,7 +14643,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -14655,10 +14655,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 43,
-              "asset_polls": 43,
+              "asset_valid": 44,
+              "asset_polls": 44,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -14775,7 +14775,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -14787,10 +14787,10 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 43,
-              "asset_polls": 43,
+              "asset_valid": 44,
+              "asset_polls": 44,
               "coverage": 1.0
             },
             "tier1_key": "BTC",
@@ -15294,7 +15294,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 4,
-              "missing_labels": 91,
+              "missing_labels": 96,
               "model_hit": 1.0,
               "model_wilson_95": [
                 0.5101,
@@ -15306,10 +15306,10 @@
                 "model_only": 4
               },
               "paired_one_sided_p_unadjusted": 0.0625,
-              "pending_labels": 10,
+              "pending_labels": 5,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 43,
-              "asset_polls": 43,
+              "asset_valid": 44,
+              "asset_polls": 44,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
@@ -15426,7 +15426,7 @@
               },
               "independent_assets_assumption_verified": false,
               "independent_by_asset_n": 12,
-              "missing_labels": 76,
+              "missing_labels": 77,
               "model_hit": 0.8333,
               "model_wilson_95": [
                 0.552,
@@ -15438,10 +15438,10 @@
                 "model_only": 10
               },
               "paired_one_sided_p_unadjusted": 0.019287,
-              "pending_labels": 10,
+              "pending_labels": 9,
               "verdict": "INSUFFICIENT",
-              "asset_valid": 43,
-              "asset_polls": 43,
+              "asset_valid": 44,
+              "asset_polls": 44,
               "coverage": 1.0
             },
             "tier1_key": "ETH",
